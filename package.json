@@ -1,0 +1,49 @@
+{
+  "name": "resume-roaster",
+  "version": "1.0.0",
+  "description": "A fun application that roasts resumes using Gemini API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@icons-pack/react-simple-icons": "^4.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.263.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "^15.4.2",
+    "next-themes": "^0.2.1",
+    "pdf-parse": "^1.1.1",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.7",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^15.4.2",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "resume",
+    "roaster",
+    "gemini",
+    "ai",
+    "pdf"
+  ],
+  "author": "Resume Roaster",
+  "license": "MIT"
+}
